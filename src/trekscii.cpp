@@ -16,4 +16,7 @@ int main(int argc, char **argv) {
   Canvas canvas = Canvas(dimX, dimY - 2);
   canvas.generate();
   canvas.print();
+
+  getchar();
+  return 0;
 }
