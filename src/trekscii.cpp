@@ -10,8 +10,8 @@ int main(int argc, char **argv) {
   fclose(devrnd);
   srand(seed);
 
-  int dimY = std::stoi(argv[1]);
-  int dimX = std::stoi(argv[2]);
+  int dimX = std::stoi(argv[1]);
+  int dimY = std::stoi(argv[2]);
 
   Canvas canvas = Canvas(dimX, dimY - 2);
   canvas.generate();
